@@ -1,9 +1,9 @@
 ## 基本实现了 create-react-app 基本功能
+1. 创建jsx组件并使用
+2. 引用scss语法
 
-
-
+> 23-07-06 :
 创建文件：
->
 + /src
 + + /main.js
 + + /App.jsx
@@ -73,3 +73,14 @@ module.exports = {
     ]
 }
 ```
+
+
+> 23-07-07: 配置scss
+```javascript
+yarn add -D style-loader css-loader node-sass sass-loader
+
+webpack配置：
+{
+    test: /.scss$/,
+    use: ['style-loader', 'css-loader', 'sass-loader']
+}

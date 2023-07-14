@@ -46,6 +46,7 @@
 ## 要点
 **webpack** 
 1. output - `publicPath: / `  [history模式，子路由下请求的bundle.js是从 / 寻址，避免404]
-1. devServer - `historyApiFallback:true`
-2. resolve - `alias - @:src`
+2. devServer - `historyApiFallback:true`
+3. resolve - `alias - @:src`
+4. @babel/preset-react, {runtime:'automatic'} [所有react子组件都需要手动引入React，否则报错 React is not defined ]
 

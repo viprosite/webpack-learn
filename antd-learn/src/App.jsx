@@ -1,11 +1,11 @@
-import { Button, Space } from 'antd'
-
+import React from 'react';
+import { RouterProvider } from 'react-router-dom'
+import router from '@/router'
 
 export default function App() {
     return (
-        <>
-            <Button type='primary'>Primary Button</Button>
-
-        </>
+        <React.StrictMode>
+            <RouterProvider router={router}></RouterProvider>
+        </React.StrictMode>
     )
 }

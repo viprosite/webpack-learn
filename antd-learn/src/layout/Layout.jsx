@@ -36,6 +36,7 @@ const App = () => {
                     <Logo />
                 </div>
                 <Menu
+                    style={{ borderRight: 'none' }}
                     theme="light"
                     mode="inline"
                     defaultSelectedKeys={['/']}

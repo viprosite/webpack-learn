@@ -1,0 +1,53 @@
+.todo__container{
+    width: 800px;
+    margin: auto;
+    .input{
+        margin-bottom: 20px;
+    }
+    .list{
+        .todo__item{
+            display: flex;
+            align-items: center;
+            height: 32px;
+            cursor: pointer;
+            .dot{
+                width: 8px;
+                height: 8px;
+                background-color: #1677ff;
+                border-radius: 50%;
+                margin-right: 8px;
+            }
+            .content{
+                font-size: 16px;
+                color: #363636;
+                margin-right: 20px;
+            }
+            .button{
+                .ant-btn{
+                    height: inherit;
+                    display: none;
+                    padding: 2px 5px;
+                    &:hover{
+                        color: #1677ff;
+                    }
+                }
+            }
+            &:hover{
+                .button{
+                    .ant-btn{
+                        display: inline-block;
+                    }
+                }
+            }
+            
+        }
+        .ant-divider{
+            margin: 10px 0;
+        }
+
+    }
+    .footer{
+        font-size: 13px;
+        color: #999;
+    }
+}

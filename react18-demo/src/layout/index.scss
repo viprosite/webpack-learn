@@ -1,0 +1,45 @@
+.layout__container{
+    height: 100%;
+    .app__content{
+        margin: 15px;
+        height: calc(100% - 65px - 30px);
+        background-color: #eeeeee;
+        padding: 20px;
+        border-radius: 8px;
+    }
+}
+
+
+
+.topbar__container{
+    display: flex;
+    align-items: center;  
+    background-color: #f8f8f8; 
+    padding: 10px 30px;
+    .logo__name{
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 30px;
+    }
+    .topbar__menu{
+        background: transparent;
+        border-bottom: none;
+        
+        .ant-menu-item{
+            display: flex;
+            align-items: center;
+            .menu-icon{
+                font-size: 18px;
+                color: #000;
+            }
+            &.ant-menu-item-selected{
+               .menu-icon{
+                 color: #1677ff;
+               }
+            }
+            .ant-menu-title-content{
+                font-size: 16px;
+            }
+        }
+    }
+}

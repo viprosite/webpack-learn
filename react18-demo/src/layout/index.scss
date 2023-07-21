@@ -1,6 +1,7 @@
 .layout__container{
     height: 100%;
     .app__content{
+        overflow: auto;
         margin: 15px;
         height: calc(100% - 65px - 30px);
         background-color: #eeeeee;

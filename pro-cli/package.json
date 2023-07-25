@@ -1,7 +1,7 @@
 {
   "name": "kpro-cli",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.5",
+  "description": "便捷创建vue2或vue3以及react基础项目命令行工具",
   "main": "index.js",
   "bin": {
     "pro-cli": "bin/pro-cli.js"
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["vue/react配合webpack自定义配置","pro-cli", "kpro-cli"],
   "author": "",
   "license": "ISC",
   "dependencies": {
